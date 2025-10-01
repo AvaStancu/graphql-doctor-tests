@@ -18,3 +18,5 @@ type Query {
 schema {
   query: Query
 }
+
+scalar BigInt
