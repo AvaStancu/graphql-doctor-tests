@@ -3,6 +3,9 @@ class Types::User < GraphQL::Schema::Object
   field :username, String, null: false
   field :email, String, null: false
   field :account_balance, Types::BigInt, null: true
+  field :databaseId, Int, null: true
+  field :anotherId, Int, null: true
+  field :abigintId, Types::BigInt, null: true
 end
 
 class Types::Query < GraphQL::Schema::Object
