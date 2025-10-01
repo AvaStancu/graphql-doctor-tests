@@ -3,6 +3,7 @@ type User {
   id: ID!
   username: String!
   email: String!
+  age: Int
 }
 
 # Define the queries
