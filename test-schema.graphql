@@ -5,6 +5,7 @@ type User {
   email: String!
   databaseId: Int
   someId: Int
+  anotherId: BigInt
 }
 
 # Define the queries
