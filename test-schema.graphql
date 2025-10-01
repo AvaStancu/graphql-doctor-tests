@@ -1,8 +1,11 @@
 # Define the types
 type User {
-  id: ID!
+  id: Int!
   username: String!
   email: String!
+  databaseId: Int
+  anotherId: Int
+  abigintId: BigInt
 }
 
 # Define the queries
