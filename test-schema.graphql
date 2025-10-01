@@ -1,0 +1,6 @@
+type TestType {
+  id: ID!
+  field1: String!
+  field2: String!
+  field3: String!
+}
