@@ -3,6 +3,9 @@ type User {
   id: ID!
   username: String!
   email: String!
+  databaseId: Int
+  someId: Int
+  id: Int
 }
 
 # Define the queries
