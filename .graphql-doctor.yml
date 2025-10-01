@@ -1,1 +1,5 @@
-
+pull_request_review_body: |
+  It looks like your pull request includes changes to our GraphQL schema that requires your attention.
+schemas:
+  "Development Testing Schema":
+    schema_path: test-schema.graphql
